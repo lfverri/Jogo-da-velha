@@ -122,7 +122,7 @@ namespace JogoDaVelha
                    $"__{posicoes[3]}__|__{posicoes[4]}__|__{posicoes[5]}__\n" +
                    $"  {posicoes[6]}  |  {posicoes[7]}  |  {posicoes[8]}  \n\n";
 
-            
+                Console.ReadLine();            
             
             
         }
