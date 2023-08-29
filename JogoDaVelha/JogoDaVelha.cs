@@ -82,7 +82,7 @@ namespace JogoDaVelha
 
         private void LerEscolhaDoUsuario()
         {
-            Console.WriteLine($"Agora é a vez de {vez}, entre uma posição de 1 a 9 que esteja disponível na tabela");
+            Console.WriteLine($"Agora é a vez de {vez}, digite uma posição de 1 a 9 que esteja disponível na tabela");
 
             bool conversao = int.TryParse(Console.ReadLine(), out int posicaoEscolhida);
 
